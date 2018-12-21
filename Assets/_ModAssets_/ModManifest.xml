@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModManifest buildID="67f2c207-ce68-4a4f-8e4b-8044da3662b2">
+  <Mod name="Procedural Map" author="WNP78" versionMajor="1" versionMinor="0" loadPriority="1000" lastUpdated="12/21/2018 4:35:17 PM" apiVersion="1.0.0.0" description="">
+    <Steam title="" visibility="Public" previewPath="" language="English" tags="">
+      <description></description>
+    </Steam>
+    <GameObjects>
+      <GameObject name="Map2" path="Assets/_ModAssets_/Map2.prefab" />
+    </GameObjects>
+    <Assets>
+      <Asset path="Assets/TerrainPhysicsMaterial.physicMaterial" />
+      <Asset path="Assets/Textures/CliffAlbedoSpecular.psd" />
+      <Asset path="Assets/Textures/GrassHillAlbedo.psd" />
+      <Asset path="Assets/Textures/GrassRockyAlbedo.psd" />
+      <Asset path="Assets/Textures/SandAlbedo.psd" />
+      <Asset path="Assets/Textures/snow.jpg" />
+    </Assets>
+    <Assemblies>
+      <Assembly name="ProceduralMap-Assembly-CSharp.dll" path="Assets/_ModAssets_/ProceduralMap-Assembly-CSharp.dll.bytes" isProjectAssembly="true" />
+    </Assemblies>
+    <Sections>
+      <SimplePlanesMod apiVersion="1.0.0.0">
+        <Maps>
+          <Map name="Procedural Map" description="It goes on and on and on and on and on and on and on and on and on and on and on and on and on and on..... " path="Assets/_ModAssets_/Map2.prefab" allowSandbox="true" />
+        </Maps>
+        <Levels />
+        <Parts />
+        <DesignerPlugins />
+        <MapPlugins />
+        <PersistentObjects />
+      </SimplePlanesMod>
+    </Sections>
+  </Mod>
+</ModManifest>

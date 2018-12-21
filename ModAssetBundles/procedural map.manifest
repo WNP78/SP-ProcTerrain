@@ -1,0 +1,46 @@
+ManifestFileVersion: 0
+CRC: 137863975
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 81930d502964fe1e4ca00736654f824b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fd2aaec601c86e23b00cb4101612c928
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 463027472, guid: 3cde37892b4f7594bbbc3ac6c74ecab7, type: 3}
+- Class: 114
+  Script: {fileID: -1572298941, guid: 0ae1b6aafcdc6bc46b35491a5c18721e, type: 3}
+- Class: 114
+  Script: {fileID: 1138446995, guid: 0ae1b6aafcdc6bc46b35491a5c18721e, type: 3}
+- Class: 114
+  Script: {fileID: 1233169972, guid: 0ae1b6aafcdc6bc46b35491a5c18721e, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 134
+  Script: {instanceID: 0}
+- Class: 154
+  Script: {instanceID: 0}
+- Class: 218
+  Script: {instanceID: 0}
+Assets:
+- Assets/_ModAssets_/ModManifest.xml
+- Assets/_ModAssets_/Map2.prefab
+- Assets/Textures/GrassHillAlbedo.psd
+- Assets/Textures/SandAlbedo.psd
+- Assets/TerrainPhysicsMaterial.physicMaterial
+- Assets/Textures/CliffAlbedoSpecular.psd
+- Assets/Textures/GrassRockyAlbedo.psd
+- Assets/Textures/snow.jpg
+- Assets/_ModAssets_/ProceduralMap-Assembly-CSharp.dll.bytes
+Dependencies: []

@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 137863975
+CRC: 3834799855
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 81930d502964fe1e4ca00736654f824b
+    Hash: d0b29805bc2b10f4d910c6ba21a7b47d
   TypeTreeHash:
     serializedVersion: 2
-    Hash: fd2aaec601c86e23b00cb4101612c928
+    Hash: b236055c18783e812432a2a6725d28d7
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -14,6 +14,8 @@ ClassTypes:
 - Class: 4
   Script: {instanceID: 0}
 - Class: 28
+  Script: {instanceID: 0}
+- Class: 48
   Script: {instanceID: 0}
 - Class: 49
   Script: {instanceID: 0}
@@ -31,6 +33,8 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 154
   Script: {instanceID: 0}
+- Class: 156
+  Script: {instanceID: 0}
 - Class: 218
   Script: {instanceID: 0}
 Assets:
@@ -40,6 +44,7 @@ Assets:
 - Assets/Textures/SandAlbedo.psd
 - Assets/TerrainPhysicsMaterial.physicMaterial
 - Assets/Textures/CliffAlbedoSpecular.psd
+- Assets/TerrainData.asset
 - Assets/Textures/GrassRockyAlbedo.psd
 - Assets/Textures/snow.jpg
 - Assets/_ModAssets_/ProceduralMap-Assembly-CSharp.dll.bytes

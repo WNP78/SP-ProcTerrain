@@ -81,7 +81,7 @@ public class TerrainGenerator : MonoBehaviour
             return _biomeColours;
         }
     }
-    static BiomeType[,] biomeTable = new BiomeType[,]
+    static readonly BiomeType[,] biomeTable = new BiomeType[,]
     {
         //  dry                 mid                  wet
         { BiomeType.Mountain,   BiomeType.Ice,       BiomeType.Ice },       // cold

@@ -17,6 +17,7 @@ public class TileManager2 : MonoBehaviour
     public float ms;
     void Start()
     {
+        Prefab.SetActive(false);
         ms = MovementThreshold * MovementThreshold;
         prefabTerrain = Prefab.GetComponent<Terrain>();
         gen = GetComponent<TerrainGenerator>();
@@ -103,6 +104,7 @@ public class TileManager2 : MonoBehaviour
     void GenTile(Vector3 pos, bool async = true)
     {
         //Debug.Log("Gen" + pos);
+        if (prefabTerrain.terrainData == null) { prefabTerrain.terrainData = new TerrainData(); }
         int r = prefabTerrain.terrainData.heightmapResolution;
         if (async)
         {
